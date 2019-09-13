@@ -42,7 +42,7 @@ export class DeletePartnerComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.persons = this._contactService.filterBy();
+    //this.persons = this._contactService.filterBy(); Need mysql query
   }
 
   onSelect(person: Person): void {
